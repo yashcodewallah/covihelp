@@ -1,0 +1,99 @@
+.preventcovidContainer {
+    display: flex;
+    background-color: #DEDEDE;
+    gap: 30px;
+    padding: 70px;
+}
+
+.card-container {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.card-heading {
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: purple;
+}
+
+.card-info {
+    color: #9C8C8C;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10%;
+}
+
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.info-box-heading {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.info-box-info {
+    color: #9C8C8C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.info-box-checks {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #9C8C8C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+.info-box-button {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9252B6;
+    font-size: medium;
+    margin-right: 20%;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 14.1008px;
+    cursor: pointer;
+}
