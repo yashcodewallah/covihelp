@@ -1,10 +1,10 @@
 import React from 'react'
-import Virusicon from '../resources/virusicon.png';
-import Security from '../resources/security.png';
-import Treatment from '../resources/treatment.png';
-import Doctor from '../resources/doctor.png';
-import Tick from '../resources/tick.png'
-import "../home.css"
+import Virusicon from './virusicon.png';
+import Security from './security.png';
+import Treatment from './treatment.png';
+import Doctor from './doctor.png';
+import Tick from './tick.png'
+import "./small-card.css"
 
 
 const Sorethroat = (key) => {

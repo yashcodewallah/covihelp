@@ -1,7 +1,7 @@
 import React from 'react'
-import Doctor1 from '../resources/doctor1.png'
-import Doctor2 from '../resources/doctor2.png'
-import "../home.css"
+import Doctor1 from './doctor1.png'
+import Doctor2 from './doctor2.png'
+import "./home.css"
 
 export default function homeinfo() {
   return (

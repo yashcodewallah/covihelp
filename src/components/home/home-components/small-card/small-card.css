@@ -1,0 +1,60 @@
+
+
+.purple-text {
+    color: #9252B6;
+}
+
+.sans-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+
+.grey-txt {
+    color:
+        #4c4747;
+}
+
+
+
+/* small card section */
+
+.small-card-container{
+    display: flex;
+  margin:20px 20px ;
+  justify-content: space-evenly;
+ gap: 80px;
+ margin: 50px 0px;
+}
+
+.small-card{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+}
+
+.small-card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-card-detail{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.small-card-heading{
+    font-size:13px;
+    font-weight:700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-left:-4px; */
+    margin-bottom:3px
+}
+.tick-row{
+    display: flex;
+    align-items: center;
+    margin:5px 0px;
+}

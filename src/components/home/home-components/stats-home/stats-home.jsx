@@ -1,5 +1,5 @@
 import React ,{ useState }from 'react'
-import "../home.css"
+import "./home.css"
 import { Icon } from '@iconify-icon/react';
 import axios from 'axios';
 export default function Card() {

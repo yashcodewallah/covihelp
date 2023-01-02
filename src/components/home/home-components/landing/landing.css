@@ -1,0 +1,64 @@
+.landing {
+    display: flex;
+    flex-direction: row-;
+    background-color: lightgray;
+    height: 250px;
+    border-bottom-right-radius: 150px;
+}
+
+.landing-left {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 30px;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.purple-text {
+    color: #9252B6;
+}
+
+
+
+.purple-btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 14px;
+    background-color: purple;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.grey-txt {
+    color:
+        #4c4747;
+}
+
+.landing-right {
+    display: flex;
+    flex: 1.5;
+    justify-content: start;
+    align-items: center;
+}
+
+.doctor-illustration {
+    margin-top: 80px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.landing-heading {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+

@@ -29,7 +29,7 @@ export default function remedyBox() {
 <li>Avoid touching surfaces in public<img src={Cross} alt='' style={{'maxHeight':'15px'}}></img></li>
     </div>
     <div className='remedy-img'>
-        <img src={Doctor} alt="" style={{'maxWidth':'400px'}}></img>
+        <img src={Doctor} alt="" style={{'maxWidth':'350px'}}></img>
     </div>
    </div>
     </div>

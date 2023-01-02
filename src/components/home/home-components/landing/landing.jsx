@@ -1,6 +1,6 @@
 import React from 'react'
-import { ReactComponent as Doctorillustration } from '../resources/doctor.svg';
-import "../home.css"
+import { ReactComponent as Doctorillustration } from './doctor.svg';
+import "./landing.css"
 
 
 export default function landing() {
