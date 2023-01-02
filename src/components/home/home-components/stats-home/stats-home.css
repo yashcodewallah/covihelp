@@ -1,0 +1,46 @@
+
+.purple-text {
+    color: #9252B6;
+}
+
+
+
+/* stats-home.jsx */
+     /*  */
+     /*  */
+.stats-box {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    align-items: center;
+    margin: 40px 20%;
+    margin-bottom: -30px;
+}
+
+.card-box{
+    display: flex;
+    flex-direction:row ; 
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 40px; */
+    gap: 5px;
+}
+
+.data-number {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.card-category {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+

@@ -1,31 +1,10 @@
-import React ,{ useState }from 'react'
-import "./home.css"
+import React from 'react'
+import "./stats-home.css"
 import { Icon } from '@iconify-icon/react';
-import axios from 'axios';
-export default function Card() {
 
-  const [active, setActive] = useState("loading");
-const [death,setDeath]= useState("loading");
-const [recovered,setRecovered]= useState("loading");
+export default function Card(props) {
 
 
-  const options = {
-    method: 'GET',
-    url: 'https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/country-report-iso-based/India/ind',
-    headers: {
-      'X-RapidAPI-Key': '1d66893269mshea92921aa55aa31p1b73b8jsn831c5a571d80',
-      'X-RapidAPI-Host': 'vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com'
-    }
-  };
-  
-  axios.request(options).then(function (response) {
-    const data=response.data;
-    setActive(data[0].ActiveCases)
-    setRecovered(data[0].TotalRecovered)
-    setDeath(data[0].TotalDeaths)
-  }).catch(function (error) {
-    console.error(error);
-  });
   return (
     <div className='stats-box'>
       <div className='purple-text sans-font ' style={{'marginBottom':'10px'}}>Coronavirus Statistic</div>
@@ -35,19 +14,19 @@ const [recovered,setRecovered]= useState("loading");
         
         <div className='card'>
           <Icon icon="bxs:virus" height={'60px'} />
-          <div className='data-number'>{active}</div>
+          <div className='data-number'>{props.active}</div>
           <div className='card-category'>ACTIVE CASES</div>
         </div>
 
         <div className='card'>
           <Icon icon="bxs:virus" height={'60px'} />
-          <div className='data-number'>{death}</div>
+          <div className='data-number'>{props.death}</div>
           <div className='card-category'>DEATH CASES</div>
         </div>
 
         <div className='card'>
           <Icon icon="bxs:virus" height={'60px'} />
-          <div className='data-number'>{recovered}</div>
+          <div className='data-number'>{props.recovered}</div>
           <div className='card-category'>RECOVERED CASES</div>
         </div>
         

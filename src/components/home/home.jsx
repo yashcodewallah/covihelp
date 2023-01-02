@@ -7,12 +7,12 @@ import Landing from './home-components/landing/landing';
 import PreventCovidBox from './home-components/preventcovid/preventcovid';
 import RemedyBox from './home-components/remedyBox/remedyBox';
 import News from "./home-components/news and articles/news.jsx"
-export default function home() {
+export default function home(props) {
   return (
     <div className='home-container'>
         <Landing />
       <div className='home-body'>
-        <Statsbox />
+        <Statsbox active={props.active} death={props.death} recovered={props.recovered} />
         <Homeinfo />
         <SmallCard />
         <PreventCovidBox />
